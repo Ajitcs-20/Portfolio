@@ -1,33 +1,18 @@
 "use client";
 import React, { useTransition, useState } from "react";
-import Image from "next/image";
+import CareerTimeline from './CareerTimeline';
 import TabButton from "./TabButton";
 
 const TAB_DATA = [
-  {
-    title: "Skills",
-    id: "skills",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Next.js</li>
-        <li>TypeScript</li>
-        <li>GIT & GitHub</li>
-        <li>HTML/CSS</li>
-        <li>JIRA</li>
-        <li>OOPs</li>
-       
-      </ul>
-    ),
-  },
+ 
+
   {
     title: "Education",
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>GLA Institute of Technology and Management</li>
+        <li>Shah Faiz Public School</li>
       </ul>
     ),
   },
@@ -36,15 +21,15 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Data Science with Python by RemarkSkills</li>
+       
       </ul>
     ),
   },
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("skills");
+  const [tab, setTab] = useState("education");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -56,7 +41,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+      <CareerTimeline />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg text-[#ADB7BE] ">
@@ -68,14 +53,8 @@ I am deeply passionate about creating user-centric and innovative solutions. I a
 
 
           </p>
-          <div className="flex flex-row justify-start mt-8">
-            <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
-            >
-              {" "}
-              Skills{" "}
-            </TabButton>
+          <div className="flex flex-row justify-start mt-8 ">
+           
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}

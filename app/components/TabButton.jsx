@@ -6,21 +6,18 @@ const variants = {
   active: { width: "calc(100% - 0.75rem)" },
 };
 
-const TabButton = ({ active, selectTab, children }) => {
-  const buttonClasses = active ? "text-white" : "text-[#ADB7BE]";
-
+const TabButton = ({ selectTab, active, children }) => {
   return (
-    <button onClick={selectTab}>
-      <p className={`mr-3 font-semibold hover:text-white ${buttonClasses}`}>
-        {children}
-      </p>
-      <motion.div
-        animate={active ? "active" : "default"}
-        variants={variants}
-        className="h-1 bg-primary-500 mt-2 mr-3"
-      ></motion.div>
+    <button
+      onClick={selectTab}
+      className={`px-4 py-2 mr-4 text-gray-600 hover:text-gray-800 ${
+        active ? "active-tab" : ""
+      }`}
+    >
+      {children}
     </button>
   );
 };
+
 
 export default TabButton;

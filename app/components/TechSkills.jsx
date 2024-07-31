@@ -51,7 +51,7 @@ const TechSkills = ({ iconImages }) => {
   return (
     <div>
        <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        Technical Skills
+         Skills
       </h2>
     <IconContainer className="bg-gradient-to-r from-white to-sky-400 rounded-md">
       {iconImages.map((image, index) => (
