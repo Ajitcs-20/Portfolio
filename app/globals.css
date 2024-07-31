@@ -67,3 +67,22 @@ body {
   background-origin: border-box;
   background-clip: border-box;
 }
+
+.icon-box {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px; /* Adjust margin as needed */
+  transform: perspective(1000px) rotateX(3deg) rotateY(5deg); /* 3D effect */
+}
+
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

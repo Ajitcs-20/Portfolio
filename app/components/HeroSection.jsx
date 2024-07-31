@@ -7,6 +7,17 @@ import Link from "next/link";
 
  
  const HeroSection = () => {
+
+
+  const handleDownload = (e) => {
+    e.preventDefault();
+    const link = document.createElement('a');
+    link.href = '/pdf/AjitResume2024.pdf'; 
+    link.download = 'Ajit_frontend_Resume.pdf'; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -49,14 +60,15 @@ import Link from "next/link";
             >
               Hire Me
             </Link>
-           <Link
-  href="/"
+           <a
+  href='/pdf/AjitResume2024.pdf'
+  onClick={handleDownload}
   className="inline-block relative px-1 py-1 w-full sm:w-fit rounded-full text-white mt-3 gradient-border"
 >
   <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
     Download CV
   </span>
-</Link>
+</a>
 
           </div>
         </motion.div>

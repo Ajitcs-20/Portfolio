@@ -8,23 +8,22 @@ const AnimatedNumbers = dynamic(() => import("react-animated-numbers"), {
 
 const achievementsList = [
   {
-    metric: "React JS",
-    value: "1",
-   
+    metric: "Projects",
+    value: "6",
+    postfix: "+",
   },
   {
-    
-    metric: "JavaScript",
-    value: "1",
-   
+    prefix: "~",
+    metric: "Users",
+    value: "100000",
   },
   {
-    metric: "Next JS",
-    value: "1",
-   
+    metric: "Certificates",
+    value: "4",
+    postfix: "+",
   },
   {
-    metric: "TypeScript",
+    metric: "Years of Experience",
     value: "1",
   },
 ];
