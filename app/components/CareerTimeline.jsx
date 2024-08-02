@@ -1,4 +1,19 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+
+const iconVar = (duration) => ({
+    initial: {x: -10},
+    animate: {
+      x: [10, -10],
+      transition: {
+        duration: duration,
+        ease: "linear",
+        repeat: Infinity,
+        repeatType: "reverse",
+      }
+    }
+    });
+
 
 const CareerTimeline = () => {
   const milestones = [
@@ -19,23 +34,29 @@ const CareerTimeline = () => {
             style={{ bottom: `${index * 30}%`, animationDelay: `${index * 0.5}s` }}
           >
             {milestone.side === 'left' && (
-              <div className="mr-8">
-                <div className="bg-slate-300 border border-gray-300 rounded-md p-4 shadow-lg mb-4 animate-slide-up">
-                  <h3 className="font-bold text-lg">{milestone.title}</h3>
-                  <p className="text-gray-600">{milestone.description}</p>
-                  <span className="text-sm text-gray-500">{milestone.year}</span>
+               <motion.div
+               variants={iconVar(2.5)}
+               initial="initial"
+               animate="animate" className="mr-8">
+                <div className="border-4 border-neutral-800 rounded-md p-4 shadow-lg mb-4 animate-slide-up">
+                  <h3 className=" text-lg">{milestone.title}</h3>
+                  <p className="text-[#ADB7BE]">{milestone.description}</p>
+                  <span className="text-sm text-[#ADB7BE]">{milestone.year}</span>
                 </div>
-              </div>
+                </motion.div>
             )}
-            <div className="text-lg font-bold text-sky-500 mb-4">{milestone.year}</div>
+            <div className="text-lg text-sky-500 mb-4">{milestone.year}</div>
             {milestone.side === 'right' && (
-              <div className="ml-8">
-                <div className="bg-slate-300 border border-gray-300 rounded-md p-4 shadow-lg mb-4 animate-slide-up">
-                  <h3 className="font-bold text-lg">{milestone.title}</h3>
-                  <p className="text-gray-600">{milestone.description}</p>
-                  <span className="text-sm text-gray-500">{milestone.year}</span>
+               <motion.div
+               variants={iconVar(5)}
+               initial="initial"
+               animate="animate" className="ml-8">
+                <div className=" border-4 border-neutral-800 rounded-md p-4 shadow-lg mb-4 animate-slide-up">
+                  <h3 className=" text-lg">{milestone.title}</h3>
+                  <p className="text-[#ADB7BE]">{milestone.description}</p>
+                  <span className="text-sm text-[#ADB7BE]">{milestone.year}</span>
                 </div>
-              </div>
+                </motion.div>
             )}
           </div>
         ))}

@@ -37,13 +37,13 @@ const AchievementsSection = () => {
             key={index}
             className="flex flex-col items-center justify-center mx-4 my-4 sm:my-0"
           >
-            <h2 className="text-white text-4xl font-bold flex flex-row">
+            <h2 className="text-white text-4xl flex flex-row">
               {achievement.prefix}
               <AnimatedNumbers
                 includeComma
                 animateToNumber={parseInt(achievement.value, 10)}
                 locale="en-US"
-                className="text-white text-4xl font-bold"
+                className="text-[#ADB7BE] text-4xl"
                 configs={[
                   { mass: 1, tension: 220, friction: 100 },
                   { mass: 1, tension: 180, friction: 130 },

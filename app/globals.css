@@ -63,7 +63,7 @@ body {
   height: 100%;
   border-radius: 9999px;
   border: 6px solid transparent; /* Adjust thickness */
-  background-image: linear-gradient(to right, #f0f5f7, #093daf); /* Gradient colors */
+  background-image: linear-gradient(to right, #858e92, #504545); /* Gradient colors */
   background-origin: border-box;
   background-clip: border-box;
 }
@@ -115,5 +115,6 @@ body {
 
 .animate-slide-up {
   animation: slide-up 3s forwards;
+  scroll-timeline: 3y;
 }
 
