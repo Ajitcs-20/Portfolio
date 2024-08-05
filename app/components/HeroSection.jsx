@@ -55,7 +55,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className='text-white text-base sm:text=lg mb-6 lg:text-xl font-thin'>
-          With one year of hands-on experience in a dynamic startup environment, I bring a unique blend of creativity and technical expertise. Proficient in TypeScript, Chakra UI, and React, I am on the lookout for challenging opportunities that promote professional growth and innovation. Let's build something extraordinary together!
+          With one year of hands-on experience in a dynamic startup environment, I bring a unique blend of creativity and technical expertise. Proficient in TypeScript, Chakra UI, and React, I am on the lookout for challenging opportunities that promote professional growth and innovation. Let&apos;s build something extraordinary together!
           </p>
           <div>
             <motion.a
