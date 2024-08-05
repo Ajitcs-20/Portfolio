@@ -33,5 +33,9 @@
     "gh-pages": "^6.1.1",
     "postcss": "^8",
     "tailwindcss": "^3.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ajitcs-20/Portfolio.git"
   }
 }
