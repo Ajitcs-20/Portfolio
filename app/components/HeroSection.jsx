@@ -55,10 +55,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className='text-white text-base sm:text=lg mb-6 lg:text-xl font-thin'>
-            Detail-oriented and motivated Frontend Developer with one year of experience in a
-            startup environment. Skilled in TypeScript, Chakra UI, and React, I am actively
-            seeking challenging opportunities that foster professional growth and allow me to
-            contribute my expertise to innovative projects.
+          With one year of hands-on experience in a dynamic startup environment, I bring a unique blend of creativity and technical expertise. Proficient in TypeScript, Chakra UI, and React, I am on the lookout for challenging opportunities that promote professional growth and innovation. Let's build something extraordinary together!
           </p>
           <div>
             <motion.a
@@ -94,6 +91,7 @@ const HeroSection = () => {
               className="rounded-full object-cover"
               fill
               sizes="(max-width: 768px) 100vw, 400px"
+              
             />
           </div>
         </motion.div>

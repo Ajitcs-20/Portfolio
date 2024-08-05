@@ -26,13 +26,13 @@ const EmailSection = () => {
         
         <div className="socials flex flex-row gap-3">
         <div className="flex justify-center  bg-black p-6 rounded-lg">
-      <a href="mailto:ajitsharma4789@gmail.com" title="Email" className="m-2 p-4 bg-gray-800 rounded-lg hover:scale-110 transform transition duration-300">
+      <a href="mailto:ajitsharma4789@gmail.com" title="ajitsharma4789@gmail.com" className="m-2 p-4 bg-gray-800 rounded-lg hover:scale-110 transform transition duration-300">
         <FaEnvelope size="2rem" className="text-red-500" />
       </a>
-      <a href="https://www.linkedin.com/in/ajit-sharma-ajitcse20/" title="LinkedIn" className="m-2 p-4 bg-gray-800 rounded-lg hover:scale-110 transform transition duration-300">
+      <a href="https://www.linkedin.com/in/ajit-sharma-ajitcse20/" title="/ajit-sharma-ajitcse20" className="m-2 p-4 bg-gray-800 rounded-lg hover:scale-110 transform transition duration-300">
         <FaLinkedin size="2rem" className="text-blue-700" />
       </a>
-      <a href="https://github.com/Ajitcs-20" title="GitHub" className="m-2 p-4 bg-gray-800 rounded-lg hover:scale-110 transform transition duration-300">
+      <a href="https://github.com/Ajitcs-20" title="/Ajitcs-20" className="m-2 p-4 bg-gray-800 rounded-lg hover:scale-110 transform transition duration-300">
         <FaGithub size="2rem" className="text-white" />
       </a>
     </div>

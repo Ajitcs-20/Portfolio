@@ -18,10 +18,9 @@ const iconVar = (duration) => ({
 const CareerTimeline = () => {
   const milestones = [
     { id: 1, title: 'Education', description: "GLA Institute of Technology and Management", year: '2019', side: 'right' },
-    { id: 2, title: 'Project', description: "Driver Drowsiness Real-Time Detection System", year: '2022', side: 'left' },
-    { id: 3, title: 'Work Experience', description: 'React Engineer at BluePi', year: '2023 ', side: 'right' },
+    { id: 2, title: 'Work Experience', description: 'React Engineer at BluePi', year: '2023 ', side: 'left' },
+    { id: 3, title: 'Project', description: "RxBenefits - Next.js, TypeScript, and Chakra UI", year: '2023', side: 'right' },
     
-    // Add more milestones as needed
   ];
 
   return (
