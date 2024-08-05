@@ -36,7 +36,7 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className='text-white mb-4 text-4xl lg:text-6xl font-thin'>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-blue-600">Hello, I'm{" "} </span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-blue-600">Hello, I&apos;m{" "} </span>
             <br></br>
             <TypeAnimation
               sequence={[
