@@ -9,7 +9,7 @@ const AnimatedNumbers = dynamic(() => import("react-animated-numbers"), {
 const achievementsList = [
   {
     metric: "Projects",
-    value: "6",
+    value: "4",
     postfix: "+",
   },
   {

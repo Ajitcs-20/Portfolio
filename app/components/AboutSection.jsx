@@ -21,6 +21,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2 text-[#ADB7BE]">
         <li>Data Science with Python by RemarkSkills</li>
+        
       </ul>
     ),
   },

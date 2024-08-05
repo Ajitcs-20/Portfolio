@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "Star Rating",
-    description: "Project 2 description",
+    description: "React JS, Javascript, CSS",
     image: "/images/react-star-rating.webp",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Ajitcs-20/Star_Rating_with_NextJS",
