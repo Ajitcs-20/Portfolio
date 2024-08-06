@@ -43,7 +43,7 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "RxBenfits",
+    title: "RxBenefits",
     description: "TypeScript, NextJS, CSS, ChakraUI ",
     image: "/images/rxBenfits.webp",
     tag: ["All", "Web"],
