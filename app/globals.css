@@ -134,10 +134,11 @@ body, html {
 .loader {
   font-size: 2em;
   font-weight: 900;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 .loader > * {
 
-  background: linear-gradient(to right, #7dd3fc, #1e40af);
+  background: linear-gradient(to right, #82cdf0, #365cda);
   -webkit-background-clip: text;
   color: transparent;
 }
