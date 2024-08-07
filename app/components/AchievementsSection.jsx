@@ -43,7 +43,7 @@ const AchievementsSection = () => {
                 includeComma
                 animateToNumber={parseInt(achievement.value, 10)}
                 locale="en-US"
-                className="text-[#ADB7BE] text-4xl"
+                className="text-white text-4xl"
                 configs={[
                   { mass: 1, tension: 220, friction: 100 },
                   { mass: 1, tension: 180, friction: 130 },
