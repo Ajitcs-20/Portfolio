@@ -1,12 +1,20 @@
 "use client";
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
-import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
     id: 1,
+    title: "RxBenefits",
+    description: "TypeScript, NextJS, CSS, ChakraUI ",
+    image: "/images/rxBenfits.webp",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 2,
     title: "Portfolio",
     description: "Next.js, React.js, JavaScript, Tailwind CSS",
     image: "/images/image.png",
@@ -24,7 +32,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 3,
+    id: 4,
     title: "QuoraOfCollege social platform",
     description: "React, JavaScript",
     image: "/images/quora.png",
@@ -33,7 +41,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Restaurant-Website",
     description: "HTML, CSS, JavaScript, PHP",
     image: "/images/projects/4.png",
@@ -41,15 +49,7 @@ const projectsData = [
     gitUrl: "https://github.com/Ajitcs-20/Restaurant-Website",
     previewUrl: "/",
   },
-  {
-    id: 5,
-    title: "RxBenefits",
-    description: "TypeScript, NextJS, CSS, ChakraUI ",
-    image: "/images/rxBenfits.webp",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+ 
  
 ];
 
@@ -67,8 +67,8 @@ const ProjectsSection = () => {
   );
 
   const cardVariants = {
-    initial: { y: 50, opacity: 0 },
-    animate: { y: 0, opacity: 1 },
+    initial: { x: 50, opacity: 0 },
+    animate: { x: 0, opacity: 1 },
   };
 
   return (
@@ -76,23 +76,7 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        <ProjectTag
-          onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
-        />
-      </div>
+     
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li

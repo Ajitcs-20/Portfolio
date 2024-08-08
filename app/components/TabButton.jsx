@@ -10,7 +10,7 @@ const TabButton = ({ selectTab, active, children }) => {
   return (
     <button
       onClick={selectTab}
-      className={`px-4 py-2 mr-4 text-gray-600 hover:text-gray-800 ${
+      className={`px-4 py-2 mr-4 text-gray-600 hover:text-sky-700 ${
         active ? "active-tab" : ""
       }`}
     >

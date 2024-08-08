@@ -24,8 +24,8 @@ const CareerTimeline = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-left h-screen bg-black-100 py-8 w-50% rounded-xl">
-      <div className="relative w-1 bg-white h-3/4 ">
+    <div className="flex flex-col items-center justify-left h-screen w-50% rounded-xl">
+      <div className="relative w-1 bg-white h-3/4  ">
         {milestones.map((milestone, index) => (
           <div
             key={milestone.id}
