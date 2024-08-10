@@ -18,8 +18,8 @@ const achievementsList = [
     value: "100000",
   },
   {
-    metric: "Certificates",
-    value: "4",
+    metric: "Technologies",
+    value: "7",
     postfix: "+",
   },
   {
