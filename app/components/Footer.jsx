@@ -2,6 +2,23 @@ import React from "react";
 import Image from "next/image";
 import Link from 'next/link'
 const Footer = () => {
+  const str = "pisi&simt*rnr&r1t";
+  function CountStr (str) {
+const cleanstr = str.toLowerCase().replace(/[^a-zA-Z]/g,"");
+const arrStr = cleanstr.split("");
+const strObj = {};
+arrStr.map(word => {
+  if(strObj[word]){
+    strObj[word]++;
+  }
+  else{
+    strObj[word] = 1;
+  }
+  })
+  return strObj;
+  }
+
+  console.log(CountStr(str));
   return (
     <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white">
       <div className="container p-12 flex justify-between">
