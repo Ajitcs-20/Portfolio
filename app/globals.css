@@ -97,8 +97,8 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -2px; /* Adjust the position as needed */
-  height: 3px; /* Adjust the height as needed */
+  bottom: -1px; 
+  height: 2px;
   background: linear-gradient(to right, #87cefa, #0000ff); 
 }
 
