@@ -35,7 +35,7 @@ const HeroSection = () => {
           variants={textVariants}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className='text-white mb-4 text-4xl lg:text-6xl font-thin'>
+          <h1 className='text-white mb-4 text-4xl lg:text-6xl font-semibold'>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-blue-600">Hello, I&apos;m{" "} </span>
             <br></br>
             <TypeAnimation
@@ -54,7 +54,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className='text-white text-base sm:text=lg mb-6 lg:text-xl font-thin'>
+          <p className='text-white text-base sm:text=lg mb-6 lg:text-xl'>
           With one year of hands-on experience in a dynamic startup environment, I bring a unique blend of creativity and technical expertise. Proficient in TypeScript, Chakra UI, and React, I am on the lookout for challenging opportunities that promote professional growth and innovation. Let&apos;s build something extraordinary together!
           </p>
           <div>

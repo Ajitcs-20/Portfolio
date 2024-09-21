@@ -1,9 +1,17 @@
 "use client";
-import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGithub, FaRegCopy } from 'react-icons/fa';
+import { useState } from 'react';
 const EmailSection = () => {
 
  
-  
+  const [copied, setCopied] = useState('');
+
+  const handleCopy = (text) => {
+    navigator.clipboard.writeText(text);
+    setCopied(text); 
+    setTimeout(() => setCopied(''), 2000); 
+  };
+
 
   return (
     <section
@@ -22,22 +30,51 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         
-        <div className="socials flex flex-row gap-3">
-        <div className="flex justify-center  bg-black p-6 rounded-lg">
-      <a href="mailto:ajitsharma4789@gmail.com" title="ajitsharma4789@gmail.com" className="m-2 p-4 bg-gray-800 rounded-lg hover:scale-110 transform transition duration-300">
+        <div className="socials flex flex-col items-start gap-3 p-3 ">
+  
+      <div className="flex items-center gap-4 bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
         <FaEnvelope size="2rem" className="text-red-500" />
-      </a>
-      <a href="https://www.linkedin.com/in/ajit-sharma-ajitcse20/" title="/ajit-sharma-ajitcse20" className="m-2 p-4 bg-gray-800 rounded-lg hover:scale-110 transform transition duration-300">
-        <FaLinkedin size="2rem" className="text-blue-700" />
-      </a>
-      <a href="https://github.com/Ajitcs-20" title="/Ajitcs-20" className="m-2 p-4 bg-gray-800 rounded-lg hover:scale-110 transform transition duration-300">
-        <FaGithub size="2rem" className="text-white" />
-      </a>
-    </div>
-         
-        </div>
-       
+        <p className="text-[#ADB7BE] font-semibold">
+          ajitsharma4789@gmail.com
+        </p>
+   
+        <FaRegCopy
+          size="1rem"
+          className="text-gray-400 cursor-pointer hover:text-gray-200 transition-colors duration-300"
+          onClick={() => handleCopy('ajitsharma4789@gmail.com')}
+          title="Copy Email"
+        />
       </div>
+      {copied === 'ajitsharma4789@gmail.com' && <p className="text-green-500">Email copied to clipboard!</p>}
+
+
+
+        <div className="flex items-center gap-4 bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <FaLinkedin size="2rem" className="text-blue-700" />
+          <p className="text-[#ADB7BE] font-semibold">/ajit-sharma-ajitcse20</p>
+          <FaRegCopy
+            size="1rem"
+            className="text-gray-400 cursor-pointer hover:text-gray-200 transition-colors duration-300"
+            onClick={() => handleCopy('https://www.linkedin.com/in/ajit-sharma-ajitcse20/')}
+            title="Copy LinkedIn URL"
+          />
+        </div>
+        {copied === 'https://www.linkedin.com/in/ajit-sharma-ajitcse20/' && <p className="text-green-500">LinkedIn link copied!</p>}
+
+       
+        <div className="flex items-center gap-4 bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <FaGithub size="2rem" className="text-white" />
+          <p className="text-[#ADB7BE] font-semibold">/Ajitcs-20</p>
+          <FaRegCopy
+            size="1rem"
+            className="text-gray-400 cursor-pointer hover:text-gray-200 transition-colors duration-300"
+            onClick={() => handleCopy('https://github.com/Ajitcs-20')}
+            title="Copy GitHub URL"
+          />
+        </div>
+        {copied === 'https://github.com/Ajitcs-20' && <p className="text-green-500">GitHub link copied!</p>}
+      </div>
+    </div>
      
     </section>
   );

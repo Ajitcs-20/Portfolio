@@ -39,6 +39,7 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
+          
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <motion.div
           initial={{ opacity: 0, x: -100 }}
@@ -54,6 +55,7 @@ const AboutSection = () => {
           className="mt-4 md:mt-0 text-left flex flex-col h-full"
         >
           <h2 className="text-4xl text-white mb-4">About Me</h2>
+         
           <p className="text-base lg:text-lg text-[#ADB7BE]">
             I am a recent graduate with a BTech in Computer Science and Engineering from GLA Institute of Technology and Management. Over the past year, I have honed my skills as a Frontend Developer at BluePi Consulting Pvt. Ltd. In this role, I have been responsible for developing and maintaining frontend components for critical projects using React.js, TypeScript, and Chakra UI.
             <br />
@@ -84,6 +86,8 @@ const AboutSection = () => {
           </div>
         </motion.div>
       </div>
+  
+        
     </section>
   );
 };
