@@ -6,7 +6,7 @@ import Link from "next/link";
 const ProjectCard = ({ imgUrl, title, description, gitUrl }) => {
   return (
     <div>
-      
+   
       <div
         className="h-52 md:h-72 rounded-t-xl relative group"
         style={{ background: `url(${imgUrl})`, backgroundSize: "450px 300px" }}

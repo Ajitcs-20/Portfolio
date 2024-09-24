@@ -14,6 +14,8 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
+    "@react-three/drei": "^9.113.0",
+    "@react-three/fiber": "^8.17.8",
     "@svgr/webpack": "^8.1.0",
     "@tabler/icons-react": "^3.17.0",
     "@tsparticles/engine": "^3.5.0",
@@ -28,13 +30,17 @@
     "react-animated-numbers": "^0.18.0",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
+    "react-lottie": "^1.2.4",
     "react-type-animation": "^3.2.0",
     "resend": "^3.5.0",
     "simplex-noise": "^4.0.3",
     "styled-components": "^6.1.12",
-    "tailwind-merge": "^2.5.2"
+    "tailwind-merge": "^2.5.2",
+    "three-globe": "^2.31.1"
   },
   "devDependencies": {
+    "@types/node": "22.6.1",
+    "@types/react": "18.3.8",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
     "gh-pages": "^6.1.1",

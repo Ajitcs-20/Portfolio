@@ -31,7 +31,7 @@ const TechSkills = ({ iconImages }) => {
     variants={iconVar(2.5)}
     initial="initial"
     animate="animate"
-    className="border-4 border-neutral-800 p-4 rounded-lg hover:scale-110 transform transition duration-300"
+    className=" p-4 rounded-lg hover:scale-110 transform transition duration-300"
     title="React"
   >
     <FaReact className="text-blue-500" style={{ width: '3rem', height: '3rem' }} />
@@ -42,7 +42,7 @@ const TechSkills = ({ iconImages }) => {
     variants={iconVar(5)}
     initial="initial"
     animate="animate"
-    className="border-4 border-neutral-800 p-4 rounded-lg hover:scale-110 transform transition duration-300"
+    className=" p-4 rounded-lg hover:scale-110 transform transition duration-300"
     title="Next.js"
   >
     <SiNextdotjs className="text-white" style={{ width: '3rem', height: '3rem' }} />
@@ -53,7 +53,7 @@ const TechSkills = ({ iconImages }) => {
     variants={iconVar(6)}
     initial="initial"
     animate="animate"
-    className="border-4 border-neutral-800 p-4 rounded-lg hover:scale-110 transform transition duration-300"
+    className=" p-4 rounded-lg hover:scale-110 transform transition duration-300"
     title="JavaScript"
   >
     <SiJavascript className="text-yellow-500" style={{ width: '3rem', height: '3rem' }} />
@@ -64,7 +64,7 @@ const TechSkills = ({ iconImages }) => {
     variants={iconVar(4)}
     initial="initial"
     animate="animate"
-    className="border-4 border-neutral-800 p-4 rounded-lg hover:scale-110 transform transition duration-300"
+    className=" p-4 rounded-lg hover:scale-110 transform transition duration-300"
     title="Java"
   >
     <FaJava className="text-red-500" style={{ width: '3rem', height: '3rem' }} />
@@ -74,7 +74,7 @@ const TechSkills = ({ iconImages }) => {
     variants={iconVar(7)}
     initial="initial"
     animate="animate"
-    className="border-4 border-neutral-800 p-4 rounded-lg hover:scale-110 transform transition duration-300"
+    className=" p-4 rounded-lg hover:scale-110 transform transition duration-300"
     title="Git"
   >
     <FaGitAlt className="text-orange-500" style={{ width: '3rem', height: '3rem' }} />
@@ -85,7 +85,7 @@ const TechSkills = ({ iconImages }) => {
     variants={iconVar(3)}
     initial="initial"
     animate="animate"
-    className="border-4 border-neutral-800 p-4 rounded-lg hover:scale-110 transform transition duration-300"
+    className=" p-4 rounded-lg hover:scale-110 transform transition duration-300"
     title="Tailwind CSS"
   >
     <SiTailwindcss className="text-teal-400" style={{ width: '3rem', height: '3rem' }} />
@@ -96,7 +96,7 @@ const TechSkills = ({ iconImages }) => {
     variants={iconVar(2)}
     initial="initial"
     animate="animate"
-    className="border-4 border-neutral-800 p-4 rounded-lg hover:scale-110 transform transition duration-300"
+    className="p-4 rounded-lg hover:scale-110 transform transition duration-300"
     title="JIRA"
   >
     <SiJira className="text-blue-600" style={{ width: '3rem', height: '3rem' }} />
@@ -107,7 +107,7 @@ const TechSkills = ({ iconImages }) => {
     variants={iconVar(8)}
     initial="initial"
     animate="animate"
-    className="border-4 border-neutral-800 p-4 rounded-lg hover:scale-110 transform transition duration-300"
+    className=" p-4 rounded-lg hover:scale-110 transform transition duration-300"
     title="Python"
   >
     <FaPython className="text-blue-600" style={{ width: '3rem', height: '3rem' }} />
@@ -118,7 +118,7 @@ const TechSkills = ({ iconImages }) => {
     variants={iconVar(9)}
     initial="initial"
     animate="animate"
-    className="border-4 border-neutral-800 p-4 rounded-lg hover:scale-110 transform transition duration-300"
+    className="p-4 rounded-lg hover:scale-110 transform transition duration-300"
     title="SQL"
   >
     <SiMysql className="text-blue-500" style={{ width: '3rem', height: '3rem' }} />
@@ -129,7 +129,7 @@ const TechSkills = ({ iconImages }) => {
     variants={iconVar(10)}
     initial="initial"
     animate="animate"
-    className="border-4 border-neutral-800 p-4 rounded-lg hover:scale-110 transform transition duration-300"
+    className=" p-4 rounded-lg hover:scale-110 transform transition duration-300"
     title="TypeScript"
   >
     <SiTypescript className="text-blue-500" style={{ width: '3rem', height: '3rem' }} />
@@ -140,7 +140,7 @@ const TechSkills = ({ iconImages }) => {
     variants={iconVar(11)}
     initial="initial"
     animate="animate"
-    className="border-4 border-neutral-800 p-4 rounded-lg hover:scale-110 transform transition duration-300"
+    className=" p-4 rounded-lg hover:scale-110 transform transition duration-300"
     title="Node.js"
   >
     <FaNodeJs className="text-green-600" style={{ width: '3rem', height: '3rem' }} />

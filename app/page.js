@@ -9,12 +9,16 @@ import { TimelineDemo } from './components/TimelineDemo';
 import { LampContainer } from "./components/ui/lamp";
 import ProjectsSection from "./components/ProjectsSection";
 import Loader from './components/Loader';
-import TechSkills from "./components/TechSkills"
+import { Approach } from './components/Approach';
+import TechSkills from "./components/TechSkills";
+
 import AchievementsSection from "./components/AchievementsSection";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
+ 
 
+  
   useEffect(() => {
    
     const timer = setTimeout(() => {
@@ -34,11 +38,12 @@ export default function Home() {
       <WavyBackground className="max-w-8xl mx-auto pb-40">
         <HeroSection />
         </WavyBackground>
-        <AchievementsSection />
+       <AchievementsSection />  
         <ProjectsSection />
         <LampContainer>
         <TechSkills />
         </LampContainer>
+         <Approach /> 
         <TimelineDemo/>
         <EmailSection />
       </div>

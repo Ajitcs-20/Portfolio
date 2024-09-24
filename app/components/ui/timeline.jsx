@@ -34,7 +34,7 @@ export const Timeline = ({
         </h2>
         <p
           className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          I&apos;ve been working on Frontend for the past 1 years. Here&apos;s
+          I&apos;ve been working on Frontend for the past 1 years at BluePi . Here&apos;s
           a timeline of my journey.
         </p>
       </div>
@@ -69,7 +69,7 @@ export const Timeline = ({
           }}
           className="absolute md:left-8 left-8 top-0 overflow-hidden w-[2px] bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-transparent from-[0%] via-neutral-200 dark:via-neutral-700 to-transparent to-[99%]  [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_90%,transparent_100%)] ">
           <motion.div
-            style={{
+            style={{ 
               height: heightTransform,
               opacity: opacityTransform,
             }}
