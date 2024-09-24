@@ -3,7 +3,6 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-
 const HeroSection = () => {
   const handleDownload = (e) => {
     e.preventDefault();
@@ -69,11 +68,20 @@ const HeroSection = () => {
               whileHover={{ scale: 1.1 }}
               href='/pdf/AjitResume2024.pdf'
               onClick={handleDownload}
-              className="inline-block relative px-1 py-1 w-full sm:w-fit rounded-full text-white mt-3 gradient-border"
+              className=" relative inline-flex overflow-hidden rounded-full p-[1px] w-full sm:w-fit text-white mt-3 "
             >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 font-semibold">
-                Download CV
-              </span>
+        <span
+          className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
+         bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
+        />
+        <span
+          className="inline-block h-full w-full cursor-pointer items-center sm:w-fit
+        justify-center rounded-full bg-slate-950 px-6 py-3 text-purple backdrop-blur-3xl font-semibold"
+        >
+          Download CV
+        </span>
+  
+            
             </motion.a>
           </div>
         </motion.div>

@@ -128,7 +128,7 @@ const Card = ({ title, icon, children, des }) => {
   );
 };
 
-const AceternityIcon = ({ order }) => {
+export const AceternityIcon = ({ order }) => {
   return (
     <div>
       {/* button with spinning border */}
