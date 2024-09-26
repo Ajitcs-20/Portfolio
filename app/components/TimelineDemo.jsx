@@ -5,20 +5,20 @@ import { Timeline } from "./ui/timeline";
 export function TimelineDemo() {
   const data = [
     {
-      title: "2024",
+      title: "2024 - Present:  Engineer",
       content: (
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            The RxBenefits project has not only helped me refine my technical skills but also enhanced my problem-solving abilities, teamwork, and adaptability.
+           <span className="font-semibold text-pretty" >  BluePi Consulting . Full-time </span>  <br/> <span className=" text-pretty  text-neutral-400 text-xs" >Sep 2024 - Present . .1 yrs <br/> Gurugram, HR, India </span><br/> <span className=" text-xs" >  <span className="text-blue-400"> React.js, Next.js, TypeScript, GIT, Github, Java, TailWind CSS and Chakra UI, </span> </span> 
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://assets.aceternity.com/templates/startup-1.webp"
+              src="/images/BluePi-logo-2.png"
               alt="startup template"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+              className="rounded-lg object-cover bg-white h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <Image
               src="https://assets.aceternity.com/templates/startup-2.webp"
               alt="startup template"
@@ -42,24 +42,21 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "2023",
+      title: "2023: React JS Trainee",
       content: (
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            My journey as a Frontend developer on the RxBenefits project has been a transformative experience, evolving from a Trainee into a confident and skilled Engineer.
+            <span className="font-semibold text-pretty" >  BluePi Consulting . Full-time </span>  <br/> <span className=" text-pretty  text-neutral-400 text-xs" >Sep 2023 - sep 2024 . 1 yrs <br/> Gurugram, HR, India </span><br/> <span className=" text-xs" > At BluePi Consulting Pvt. Ltd., I worked extensively on the RxBenefits project, contributing to the development of crucial frontend components. Utilizing technologies such as  <span className="text-blue-400"> React.js, Next.js, TypeScript, GIT, Github and Chakra UI, </span> I was responsible for designing and implementing dynamic user interfaces, aimed at enhancing user experience and engagement. My role involved integrating APIs using Postman and ensuring seamless communication and data flow within the application.</span> 
           </p>
-          <p
-            className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-           As I grew more comfortable, I started taking on more significant responsibilities within the RxBenefits project. I became proficient in building responsive user interfaces, ensuring cross-browser compatibility, and optimizing performance.
-          </p>
+         
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
+              src="/images/BluePi-logo-2.png"
               alt="hero template"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+              className="rounded-lg object-cover bg-white h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <Image
               src="https://assets.aceternity.com/features-section.png"
               alt="feature template"
@@ -83,25 +80,25 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Early 2023",
+      title: "2019-2023: Student ",
       content: (
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-                I graduated in 2023 after completing my Bachelor's degree from GLA University Mathura, a journey that spanned from 2019 to 2023. Over those four years, I not only developed a solid foundation in computer science but also honed my skills in problem-solving, coding, and software development. During my time in college, I became proficient in key programming languages and technologies, laying the groundwork for my future in the tech industry. Through various projects and internships, I gained hands-on experience in both front-end and back-end development, igniting my passion for building user-centric applications.
-           Upon graduation in 2023, I was excited to join BluePi Consulting as a Trainee Engineer.
+            <span className="font-semibold text-pretty" >  GLA University . Full-time </span>  <br/> <span className=" text-pretty  text-neutral-400 text-xs" >Jun 2019 - Jun 2023 . 4 yrs <br/> Mathura, Uttar Pradesh India </span><br/> <span className=" text-xs" >Over these years,  i have developed strong technical skills in <span className="text-blue-400"> HTML, CSS, React JS, JavaScript, Data Structure and Algorithms </span> preparing for roles in frontend development. My education likely provided a solid foundation in both theoretical concepts and practical applications.</span> 
+                
           </p>
           <div className="mb-8">
           </div>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
+              src="/images/GLA1.jpg"
               alt="hero template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <Image
-              src="https://assets.aceternity.com/features-section.png"
+              src="/images/Coding.jpg"
               alt="feature template"
               width={500}
               height={500}
