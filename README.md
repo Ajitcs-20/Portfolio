@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# Ajit Sharma - Frontend Developer Portfolio
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Welcome to my portfolio!**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I am a dedicated and detail-oriented **Frontend Developer** with expertise in building intuitive, user-friendly web applications. Over the years, I have honed my skills in modern frontend technologies like **React.js**, **TypeScript**, and **Chakra UI**, while continuously working on projects that enhance user experience and solve real-world challenges.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## About Me
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Name:** Ajit Sharma
+- **Location:** Gurugram, Haryana, India
+- **Email:** [ajitsharma4789@gmail.com](mailto:ajitsharma4789@gmail.com)
+- **LinkedIn:** [Ajit Sharma LinkedIn](https://www.linkedin.com/in/ajit-sharma-ajitcse20/)
 
-## Learn More
+I hold a **B.Tech in Computer Science & Engineering** from **GLA Institute of Technology and Management, Mathura**, and have professional experience as a **Frontend Developer** at **BluePi Consulting Pvt. Ltd.** where I’ve worked on several high-impact projects.
 
-To learn more about Next.js, take a look at the following resources:
+## Key Skills
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend Frameworks:** React.js, Next.js
+- **Languages:** TypeScript, JavaScript, Python
+- **UI Libraries:** Chakra UI
+- **Version Control:** Git, GitHub
+- **API Testing:** Postman
+- **Other Tools:** JIRA, Slack, OOP principles
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Projects
 
-## Deploy on Vercel
+### 1. RxBenefits Project (2023 - Present)
+In this project at **BluePi Consulting Pvt. Ltd.**, I was responsible for:
+- Developing key **frontend components** using **React.js** and **TypeScript**.
+- Implementing **user interfaces** with a focus on seamless user experiences using **Chakra UI**.
+- **API integration** using **Postman** to ensure smooth data flow between the client-side and server-side.
+- Collaborating effectively with a distributed team and providing **daily updates** to US clients via **Slack**.
+- Utilizing **Git and GitHub** to manage version control and ensure collaborative, efficient development.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 2. Driver Drowsiness Real-Time Detection System (2022-2023)
+A capstone project demonstrating the application of **Deep Learning** and **OpenCV**:
+- Built a real-time system to detect driver drowsiness and prevent accidents.
+- Developed the project using **Python** and **computer vision** technologies.
+- The system was praised for its practical application in road safety, and I received full marks for the innovation and implementation.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Experience
+
+### Frontend Developer - BluePi Consulting Pvt. Ltd. (2023 - Present)
+- Worked on the **RxBenefits project**, building and optimizing **React.js** applications.
+- Collaborated with the development team to deliver **user-focused solutions** and exceed client expectations.
+- Strengthened my **API integration** and **UI/UX design** skills using **Chakra UI** and **Postman**.
+
+## Education
+
+### BTech in Computer Science & Engineering - GLA Institute of Technology and Management (2019 - 2023)
+- Acquired strong foundational knowledge in **software development**, algorithms, and web technologies.
+- Actively participated in projects that merged technical expertise with innovative solutions.
+
+## Get in Touch
+
+If you're interested in learning more about my work, feel free to reach out!
+
+- **Email:** ajitsharma4789@gmail.com
+- **LinkedIn:** [Ajit Sharma LinkedIn](https://www.linkedin.com/in/ajit-sharma-ajitcse20/)
+
+---
+
