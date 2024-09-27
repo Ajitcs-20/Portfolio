@@ -68,7 +68,7 @@ const HeroSection = () => {
               whileHover={{ scale: 1.1 }}
               href='/pdf/AjitResume2024.pdf'
               onClick={handleDownload}
-              className=" relative inline-flex overflow-hidden rounded-full p-[1px] w-full sm:w-fit text-white mt-3 "
+              className=" relative inline-flex overflow-hidden rounded-full p-[1px]  w-full sm:w-fit text-white mt-3 "
             >
         <span
           className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
@@ -94,7 +94,7 @@ const HeroSection = () => {
         >
           <div className="relative w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] transition-transform duration-300 hover:scale-105 flex justify-center items-center ">
             <Image
-              src="https://github.com/Ajitcs-20/Portfolio/blob/main/public/images/BlackWhite.png"
+              src="/images/BlackWhite.png"
               alt="profile picture"
               className="rounded-full object-cover"
               fill
