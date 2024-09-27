@@ -10,7 +10,7 @@ export function TimelineDemo() {
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-           <span className="font-semibold text-pretty" >  BluePi Consulting . Full-time </span>  <br/> <span className=" text-pretty  text-neutral-400 text-xs" >Sep 2024 - Present . .1 yrs <br/> Gurugram, HR, India </span><br/> <span className=" text-xs" >  <span className="text-blue-400"> React.js, Next.js, TypeScript, GIT, Github, Java, TailWind CSS and Chakra UI, </span> </span> 
+           <span className="font-semibold text-pretty" >  BluePi Consulting . Full-time </span>  <br/> <span className=" text-pretty  text-neutral-400 text-xs" >Sep 2024 - Present . 1.1 yrs <br/> Gurugram, HR, India </span><br/> <span className=" text-xs" >  <span className="text-blue-400"> React.js, Next.js, TypeScript, GIT, Github, Java, TailWind CSS and Chakra UI, </span> </span> 
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
