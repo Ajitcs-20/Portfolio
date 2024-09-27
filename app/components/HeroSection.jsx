@@ -94,7 +94,7 @@ const HeroSection = () => {
         >
           <div className="relative w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] transition-transform duration-300 hover:scale-105 flex justify-center items-center ">
             <Image
-              src="https://raw.githubusercontent.com/Ajitcs-20/Portfolio/main/public/images/BlackWhite.png"
+              src="/images/BlackWhite.png"
               alt="profile picture"
               className="rounded-full object-cover"
               fill
