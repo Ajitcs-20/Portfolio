@@ -14,7 +14,7 @@ export function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="/images/BluePi-logo-2.png"
+              src="/public/images/BluePi-logo-2.png"
               alt="startup template"
               width={500}
               height={500}
