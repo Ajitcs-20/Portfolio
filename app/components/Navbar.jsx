@@ -29,7 +29,7 @@ export default function Navbar() {
   const [navBarOpen, setNavBarOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#121212] bg-opacity-90 ">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link href="/" className="text-[#ADB7BE]">
           <Image
@@ -41,7 +41,7 @@ export default function Navbar() {
           />
         </Link>
 
-        <div className="mobile-menu block md:hidden">
+        <div className="mobile-menu block md:hidden ">
           {!navBarOpen ? (
             <button onClick={() => setNavBarOpen(true)} className="flex items-center px-3 py-2 border rounded border-l-slate-200 text-slate-200 hover:text-white hover:border-white">
               <FaBars className="h-5 w-5" />
@@ -60,7 +60,7 @@ export default function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.3 }}
-              className="absolute top-full left-0 w-full bg-[#121212] rounded-lg shadow-lg z-10"
+              className="absolute top-full left-0 w-full bg-[#121212] rounded-lg shadow-lg"
             >
               <ul className="flex flex-col space-y-2 p-4">
                 {navLinks.map((link, index) => (
