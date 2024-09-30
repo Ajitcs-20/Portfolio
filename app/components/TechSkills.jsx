@@ -3,7 +3,7 @@ import React from 'react';
 import { FaReact, FaJava, FaGitAlt, FaPython, FaNodeJs } from 'react-icons/fa';
 import { SiNextdotjs, SiJavascript, SiTailwindcss, SiJira, SiMysql, SiTypescript } from 'react-icons/si';
 import { motion } from 'framer-motion';
-
+import { LampContainer } from './ui/lamp';
 
 const iconVar = (duration) => ({
 initial: {y: -10},
@@ -20,11 +20,12 @@ animate: {
 
 const TechSkills = ({ iconImages }) => {
   return (
-    <div >
-       <h2 className="text-center text-4xl  text-white mt-10 mb-8 md:mb-12 pt-10">
+    
+    <div id="technologies" >
+       <h2 className="text-center text-4xl  text-white mt-10 mb-4 md:mb-6 pt-10">
          Technologies
       </h2>
-   
+      <LampContainer>
       <div className="flex flex-wrap justify-center items-center gap-4 p-6 rounded-lg">
   {/* React */}
   <motion.div
@@ -146,6 +147,7 @@ const TechSkills = ({ iconImages }) => {
     <FaNodeJs className="text-green-600" style={{ width: '3rem', height: '3rem' }} />
   </motion.div>
 </div>
+</LampContainer>
 
     </div>
   );

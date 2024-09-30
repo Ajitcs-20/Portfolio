@@ -40,9 +40,9 @@ export default function Home() {
         </WavyBackground>
        <AchievementsSection />  
         <ProjectsSection />
-        <LampContainer>
+       
         <TechSkills />
-        </LampContainer>
+       
          <Approach /> 
         <TimelineDemo/>
         <EmailSection />
