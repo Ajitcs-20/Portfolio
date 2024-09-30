@@ -31,11 +31,10 @@ const navLinks = [
 
 export default function Navbar() {
   const [navBarOpen, setNavBarOpen] = useState(false);
-
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#121212] bg-opacity-90 ">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
-        <Link href="/" className="text-[#ADB7BE]">
+        <Link href="/" className="text-[#ADB7BE] hover:text-white">
           <Image
             src="/images/code.png"
             alt="LOGO"
@@ -69,7 +68,7 @@ export default function Navbar() {
               <ul className="flex flex-col space-y-2 p-4">
                 {navLinks.map((link, index) => (
                   <li key={index}>
-                    <Link href={link.path} className="block px-4 py-2 text-slate-200 hover:text-white">
+                    <Link href={link.path} className="block px-4 py-2 text-[#ADB7BE] hover:text-white ">
                       {link.title}
                     </Link>
                   </li>
@@ -83,7 +82,7 @@ export default function Navbar() {
           <ul className="flex p-4 md:p-0 sm:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
               <li key={index}>
-                <NavLink href={link.path} title={link.title} />
+              <NavLink href={link.path} title={link.title}/>
               </li>
             ))}
           </ul>

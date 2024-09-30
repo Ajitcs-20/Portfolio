@@ -31,8 +31,8 @@ const EmailSection = () => {
         </p>
         
         <div className="socials flex flex-col items-start gap-3 p-3 ">
-  
-      <div className="flex items-center gap-4 bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+ 
+      <div className="flex items-center gap-4 bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"  title="Copy Email"  onClick={() => handleCopy('ajitsharma4789@gmail.com')}>
         <FaEnvelope size="2rem" className="text-red-500" />
         <p className="text-[#ADB7BE] font-semibold">
           ajitsharma4789@gmail.com
@@ -47,9 +47,9 @@ const EmailSection = () => {
       </div>
       {copied === 'ajitsharma4789@gmail.com' && <p className="text-green-500">Email copied to clipboard!</p>}
 
+      
 
-
-        <div className="flex items-center gap-4 bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <div className="flex items-center gap-4 bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"   title="Copy LinkedIn URL" onClick={() => handleCopy('https://www.linkedin.com/in/ajit-sharma-ajitcse20/')} >
           <FaLinkedin size="2rem" className="text-blue-700" />
           <p className="text-[#ADB7BE] font-semibold">/ajit-sharma-ajitcse20</p>
           <FaRegCopy
@@ -62,7 +62,7 @@ const EmailSection = () => {
         {copied === 'https://www.linkedin.com/in/ajit-sharma-ajitcse20/' && <p className="text-green-500">LinkedIn link copied!</p>}
 
        
-        <div className="flex items-center gap-4 bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <div className="flex items-center gap-4 bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"  onClick={() => handleCopy('https://github.com/Ajitcs-20')}  title="Copy GitHub URL">
           <FaGithub size="2rem" className="text-white" />
           <p className="text-[#ADB7BE] font-semibold">/Ajitcs-20</p>
           <FaRegCopy

@@ -10,7 +10,7 @@ export function TimelineDemo() {
         <div id="about">
           <p
             className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-           <span className="font-semibold text-pretty" >  BluePi Consulting . Full-time </span>  <br/> <span className=" text-pretty  text-neutral-400 text-xs" >Sep 2024 - Present . 1.1 yrs <br/> Gurugram, HR, India </span><br/> <span className=" text-xs" >  <span className="text-blue-400"> React.js, Next.js, TypeScript, GIT, Github, Java, TailWind CSS and Chakra UI, </span> </span> 
+           <span className="font-semibold text-pretty text-xl" >  BluePi Consulting . Full-time </span>  <br/> <span className=" text-pretty  text-neutral-400 text-sm" >Sep 2024 - Present . 1.1 yrs <br/> Gurugram, HR, India </span><br/> <span className=" text-sm" >  <span className="text-blue-400"> React.js, Next.js, TypeScript, GIT, Github, Java, TailWind CSS and Chakra UI, </span> </span> 
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -47,7 +47,7 @@ export function TimelineDemo() {
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            <span className="font-semibold text-pretty" >  BluePi Consulting . Full-time </span>  <br/> <span className=" text-pretty  text-neutral-400 text-xs" >Sep 2023 - sep 2024 . 1 yrs <br/> Gurugram, HR, India </span><br/> <span className=" text-xs" > At BluePi Consulting Pvt. Ltd., I worked extensively on the RxBenefits project, contributing to the development of crucial frontend components. Utilizing technologies such as  <span className="text-blue-400"> React.js, Next.js, TypeScript, GIT, Github and Chakra UI, </span> I was responsible for designing and implementing dynamic user interfaces, aimed at enhancing user experience and engagement. My role involved integrating APIs using Postman and ensuring seamless communication and data flow within the application.</span> 
+            <span className="font-semibold text-pretty text-xl" >  BluePi Consulting . Full-time </span>  <br/> <span className=" text-pretty  text-neutral-400 text-sm" >Sep 2023 - sep 2024 . 1 yrs <br/> Gurugram, HR, India </span><br/> <span className=" text-sm" > At BluePi Consulting Pvt. Ltd., I worked extensively on the RxBenefits project, contributing to the development of crucial frontend components. Utilizing technologies such as  <span className="text-blue-400"> React.js, Next.js, TypeScript, GIT, Github and Chakra UI, </span> I was responsible for designing and implementing dynamic user interfaces, aimed at enhancing user experience and engagement. My role involved integrating APIs using Postman and ensuring seamless communication and data flow within the application.</span> 
           </p>
          
           <div className="grid grid-cols-2 gap-4">
@@ -85,7 +85,7 @@ export function TimelineDemo() {
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            <span className="font-semibold text-pretty" >  GLA University . Full-time </span>  <br/> <span className=" text-pretty  text-neutral-400 text-xs" >Jun 2019 - Jun 2023 . 4 yrs <br/> Mathura, Uttar Pradesh India </span><br/> <span className=" text-xs" >Over these years,  i have developed strong technical skills in <span className="text-blue-400"> HTML, CSS, React JS, JavaScript, Data Structure and Algorithms </span> preparing for roles in Full Stack Development. My education likely provided a solid foundation in both theoretical concepts and practical applications.</span> 
+            <span className="font-semibold text-pretty text-xl" >  GLA University . Full-time </span>  <br/> <span className=" text-pretty  text-neutral-400 text-sm" >Jun 2019 - Jun 2023 . 4 yrs <br/> Mathura, Uttar Pradesh India </span><br/> <span className=" text-sm" >Over these years,  i have developed strong technical skills in <span className="text-blue-400"> HTML, CSS, React JS, JavaScript, Data Structure and Algorithms </span> preparing for roles in Full Stack Development. My education likely provided a solid foundation in both theoretical concepts and practical applications.</span> 
                 
           </p>
           <div className="mb-8">

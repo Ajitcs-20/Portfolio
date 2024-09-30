@@ -6,7 +6,6 @@ import { WavyBackground } from "./components/ui/wavy-background";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import { TimelineDemo } from './components/TimelineDemo';
-import { LampContainer } from "./components/ui/lamp";
 import ProjectsSection from "./components/ProjectsSection";
 import Loader from './components/Loader';
 import { Approach } from './components/Approach';
@@ -17,7 +16,6 @@ import AchievementsSection from "./components/AchievementsSection";
 export default function Home() {
   const [loading, setLoading] = useState(true);
  
-
   
   useEffect(() => {
    

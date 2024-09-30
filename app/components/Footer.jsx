@@ -31,7 +31,7 @@ arrStr.map(word => {
             height="40"
           />
         </Link>
-        <p className="text-slate-600">All rights reserved.</p>
+        <p className="text-slate-600">All rights reserved 2024.</p>
       </div>
     </footer>
   );
