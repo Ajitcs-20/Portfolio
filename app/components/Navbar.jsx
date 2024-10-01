@@ -9,11 +9,7 @@ import NavLink from './NavLink'
 const navLinks = [
   {
     title: "Home",
-    path: "/",
-  },
-  {
-    title: "About",
-    path: "#about",
+    path: "#home",
   },
   {
     title: "Projects",
@@ -22,6 +18,10 @@ const navLinks = [
   {
     title: "Technologies",
     path: "#technologies",
+  },
+  {
+    title: "About",
+    path: "#about",
   },
   {
     title: "Contact",

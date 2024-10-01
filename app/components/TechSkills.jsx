@@ -21,7 +21,7 @@ animate: {
 const TechSkills = ({ iconImages }) => {
   return (
     
-    <div id="technologies" >
+    <section id="technologies" >
        <h2 className="text-center text-4xl  text-white mt-10 mb-4 md:mb-6 pt-10">
          Technologies
       </h2>
@@ -149,7 +149,7 @@ const TechSkills = ({ iconImages }) => {
 </div>
 </LampContainer>
 
-    </div>
+    </section>
   );
 };
 
