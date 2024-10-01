@@ -1,6 +1,6 @@
 "use client";
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Image from "next/image";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from 'framer-motion';
@@ -31,6 +31,38 @@ const navLinks = [
 
 export default function Navbar() {
   const [navBarOpen, setNavBarOpen] = useState(false);
+  const [currentSection, setCurrentSection] = useState("");
+
+  const closeMobileMenu = () => setNavBarOpen(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 768) {
+        closeMobileMenu(); 
+      }
+    };
+    const handleScroll = () => {
+      const sections = document.querySelectorAll("section");
+      let scrollPosition = window.scrollY;
+
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop - 500; 
+        const sectionHeight = section.offsetHeight;
+      
+        if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+          setCurrentSection(`#${section.id}`);
+          setNavBarOpen(false);
+        }
+      });
+    };
+    window.addEventListener('resize', handleResize);
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#121212] bg-opacity-90 ">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
@@ -44,7 +76,7 @@ export default function Navbar() {
           />
         </Link>
 
-        <div className="mobile-menu block md:hidden ">
+        <div className="mobile-menu block md:hidden">
           {!navBarOpen ? (
             <button onClick={() => setNavBarOpen(true)} className="flex items-center px-3 py-2 border rounded border-l-slate-200 text-slate-200 hover:text-white hover:border-white">
               <FaBars className="h-5 w-5" />
@@ -68,7 +100,9 @@ export default function Navbar() {
               <ul className="flex flex-col space-y-2 p-4">
                 {navLinks.map((link, index) => (
                   <li key={index}>
-                    <Link href={link.path} className="block px-4 py-2 text-[#ADB7BE] hover:text-white ">
+                    <Link href={link.path} className={`block py-2 pl-3 pr-4 hover:text-white ${
+          currentSection === link.path ? "text-blue-400 font-bold" : "text-[#ADB7BE]"
+        }`}>
                       {link.title}
                     </Link>
                   </li>
@@ -82,7 +116,7 @@ export default function Navbar() {
           <ul className="flex p-4 md:p-0 sm:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
               <li key={index}>
-              <NavLink href={link.path} title={link.title}/>
+              <NavLink href={link.path} title={link.title} currentSection={currentSection}/>
               </li>
             ))}
           </ul>
