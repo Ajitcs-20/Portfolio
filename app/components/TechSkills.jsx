@@ -22,7 +22,7 @@ const TechSkills = ({ iconImages }) => {
   return (
     
     <section id="technologies" >
-       <h2 className="text-center text-4xl text-white mt-10 mb-4 md:mb-6 pt-10">
+       <h2 className="text-center text-4xl text-neutral-800 dark:text-white mt-10 mb-4 md:mb-6 pt-10">
          Technologies
       </h2>
       <LampContainer>

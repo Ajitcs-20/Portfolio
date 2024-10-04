@@ -30,7 +30,7 @@ export const Timeline = ({
       ref={containerRef}>
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         
-        <h2 className="text-center text-4xl text-white mt-4 mb-8 md:mb-12">
+        <h2 className="text-center text-4xl dark:text-white text-neutral-800 mt-4 mb-8 md:mb-12">
         About my journey
       </h2>
         <p
