@@ -10,7 +10,6 @@ import ProjectsSection from "./components/ProjectsSection";
 import Loader from './components/Loader';
 import { Approach } from './components/Approach';
 import TechSkills from "./components/TechSkills";
-
 import AchievementsSection from "./components/AchievementsSection";
 
 export default function Home() {
@@ -34,8 +33,9 @@ export default function Home() {
       <Navbar />
       <div className="container mt-24 mx-auto px-12 py-4">
       <WavyBackground className="max-w-8xl mx-auto pb-40">
-        <HeroSection />
+      <HeroSection />
         </WavyBackground>
+     
        <AchievementsSection />  
         <ProjectsSection />
        
@@ -43,6 +43,7 @@ export default function Home() {
        
          <Approach /> 
         <TimelineDemo/>
+       
         <EmailSection />
       </div>
       <Footer />
