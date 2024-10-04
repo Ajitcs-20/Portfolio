@@ -24,7 +24,7 @@ arrStr.map(word => {
       <div className="container p-12 flex justify-between">
       <Link href="/" className="text-[#ADB7BE]">
           <Image
-            src="/images/code.png"
+            src="./images/code.png"
             alt="LOGO"
             className="object-cover"
             width="40"
