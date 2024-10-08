@@ -59,7 +59,7 @@ const HeroSection = () => {
           <div>
             <motion.a
               whileHover={{ scale: 1.1 }}
-              href="/contact"
+              href="/#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-sky-300 to-blue-600 hover:bg- text-white font-semibold"
             >
               Hire Me

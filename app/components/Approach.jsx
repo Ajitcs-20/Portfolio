@@ -1,10 +1,9 @@
 import React from "react";
-import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 export const Approach = () => {
   return (
-    <section id="approach" className="w-full py-20">
+    <section id="approach" className="w-full py-0">
       <h2 className="text-center text-4xl text-neutral-800 dark:text-white mt-4 mb-8 md:mb-12">
         My approach
       </h2>
