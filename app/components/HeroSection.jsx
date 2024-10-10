@@ -7,7 +7,7 @@ const HeroSection = () => {
   const handleDownload = (e) => {
     e.preventDefault();
     const link = document.createElement('a');
-    link.href = '/pdf/AjitResume2024.pdf'; 
+    link.href = '/pdf/AjitFrontendResume.pdf'; 
     link.download = 'Ajit_frontend_Resume.pdf'; 
     document.body.appendChild(link);
     link.click();

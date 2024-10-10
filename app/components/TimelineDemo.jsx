@@ -85,7 +85,7 @@ export function TimelineDemo() {
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            <span className="font-semibold text-pretty text-xl" >  GLA University . Full-time </span>  <br/> <span className=" text-pretty  text-neutral-400 text-sm" >Jun 2019 - Jun 2023 . 4 yrs <br/> Mathura, Uttar Pradesh India </span><br/> <span className=" text-sm" >Over these years,  i have developed strong technical skills in <span className="text-blue-400"> HTML, CSS, React JS, JavaScript, Data Structure and Algorithms </span> preparing for roles in Full Stack Development. My education likely provided a solid foundation in both theoretical concepts and practical applications.</span> 
+            <span className="font-semibold text-pretty text-xl" >  GLA University . Full-time </span>  <br/> <span className=" text-pretty  text-neutral-400 text-sm" >Jun 2019 - Jun 2023 . 4 yrs <br/> Mathura, Uttar Pradesh India </span><br/> <span className=" text-sm" >Over these years,  i have developed strong technical skills in <span className="text-blue-400"> HTML, CSS, React JS, JavaScript, Java, Data Structure and Algorithms </span> preparing for roles in Full Stack Development. My education likely provided a solid foundation in both theoretical concepts and practical applications.</span> 
                 
           </p>
           <div className="mb-8">
