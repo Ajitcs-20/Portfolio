@@ -4,7 +4,7 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 export const Approach = () => {
   return (
     <section id="approach" className="w-full py-0">
-      <h2 className="text-center text-4xl text-neutral-800 dark:text-white mt-4 mb-8 md:mb-12">
+ <h2 className="text-center text-4xl text-white mt-4 mb-8 md:mb-12">
         My approach
       </h2>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
