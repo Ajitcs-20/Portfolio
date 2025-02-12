@@ -34,7 +34,7 @@ export const Timeline = ({
         About my journey
       </h2>
         <p
-          className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
+          className="text-neutral-300 text-sm md:text-base max-w-sm">
           I&apos;ve been working on Frontend for the past 1 years at BluePi . Here&apos;s
           a timeline of my journey.
         </p>
