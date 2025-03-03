@@ -36,7 +36,6 @@ export default function Home() {
 
         <AchievementsSection />
         <ProjectsSection />
-
         <TechSkills />
 
         <Approach />
