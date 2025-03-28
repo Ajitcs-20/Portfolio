@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useRef } from "react";
-import ProjectCard from "./ProjectCard";
 import { motion, useInView } from "framer-motion";
 import { HoverEffect } from "./ui/HoverEffect";
 
