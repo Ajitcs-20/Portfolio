@@ -92,16 +92,20 @@ const HeroSection = () => {
           variants={imageVariants}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="relative w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] transition-transform duration-300 hover:scale-105 flex justify-center items-center ">
-            <Image
-              src="./images/BlackWhite.png"
-              alt="profile picture"
-              className="rounded-full object-cover"
-              fill
-              sizes="(max-width: 768px) 100vw, 400px"
-              
-            />
-          </div>
+        <div className="relative w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] transition-transform duration-300 hover:scale-105 flex justify-center items-center">
+  <div className="absolute inset-0 rounded-full p-1 bg-gradient-to-r from-gray-700 via-gray-400 to-gray-700">
+    <div className="w-full h-full rounded-full bg-black p-[3px]">
+      <Image
+        src="./images/BlackWhite.png"
+        alt="profile picture"
+        className="rounded-full object-cover"
+        fill
+        sizes="(max-width: 768px) 100vw, 400px"
+      />
+    </div>
+  </div>
+</div>
+
         </motion.div>
       </div>
     </section>
