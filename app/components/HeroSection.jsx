@@ -43,7 +43,7 @@ const HeroSection = () => {
                 1000,
                 'Frontend Developer',
                 1000,
-                'Full Stack Developer',
+                'DevOps Engineer',
                 1000,
                 'Software Engineer',
                 1000
@@ -54,7 +54,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className='text-white text-base sm:text=lg mb-6 lg:text-xl'>
-          With more than 1.5 years of hands-on experience in a dynamic startup environment, I bring a unique blend of creativity and technical expertise. Proficient in TypeScript, Chakra UI, and React, I am on the lookout for challenging opportunities that promote professional growth and innovation. Let&apos;s build something extraordinary together!
+          With more than 1.5 years of hands-on experience in a dynamic startup environment, I bring a unique blend of creativity and technical expertise. Proficient in React, JavaScript, CI/CD, Docker and Kubernetes. I am on the lookout for challenging opportunities that promote professional growth and innovation. Let&apos;s build something extraordinary together!
           </p>
           <div>
             <motion.a
