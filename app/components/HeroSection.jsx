@@ -22,7 +22,7 @@ const HeroSection = () => {
   const handleCloseModal = () => {
     setShowModal(false);
     const link = document.createElement('a');
-    link.href = `${window.location.origin}/pdf/Ajit_Resume2025.pdf`;
+    link.href = `${window.location.origin}${window.location.pathname}pdf/Ajit_Resume2025.pdf`;
       link.download = 'Ajit_Resume2025.pdf';
       document.body.appendChild(link);
       link.click();
@@ -137,14 +137,14 @@ const HeroSection = () => {
           <div>
             <motion.a
               whileHover={{ scale: 1.1 }}
-              href="/#contact"
+            href="#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-sky-300 to-blue-600 hover:bg- text-white font-semibold"
             >
               Hire Me
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.1 }}
-              href='/pdf/AjitResume2024.pdf'
+              href='pdf/Ajit_Resume2025.pdf'
               onClick={handleDownload}
               className=" relative inline-flex overflow-hidden rounded-full p-[1px]  w-full sm:w-fit text-white mt-3 "
             >
