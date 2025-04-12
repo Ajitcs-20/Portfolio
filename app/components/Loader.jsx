@@ -10,10 +10,10 @@ const Loader = () => {
           <p>Loading</p>
           <div className="words">
             <span className="word">buttons</span>
-            <span className="word">Projects</span>
+            <span className="word">projects</span>
             <span className="word">switches</span>
             <span className="word">cards</span>
-            <span className="word">Timeline</span>
+            <span className="word">timeline</span>
           </div>
         </div>
       </div>

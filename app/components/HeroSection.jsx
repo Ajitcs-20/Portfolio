@@ -1,19 +1,58 @@
 "use client";
-import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
-import { motion } from "framer-motion";
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
+
+
 const HeroSection = () => {
+  const [showModal, setShowModal] = useState(false);
+
   const handleDownload = (e) => {
     e.preventDefault();
-    const link = document.createElement('a');
-    link.href = '/pdf/Ajit_Resume2025.pdf'; 
-    link.download = 'Ajit_Resume2025.pdf'; 
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    setShowModal(true);
   };
 
+  const handleGoToLinkedIn = () => {
+    setShowModal(false);
+    window.open("https://www.linkedin.com/in/ajit-sharma-ajitcse20/", "_blank");
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+    const link = document.createElement('a');
+      link.href = '/pdf/Ajit_Resume2025.pdf';
+      link.download = 'Ajit_Resume2025.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+  };
+  // const handleDownload = (e) => {
+  //   e.preventDefault();
+  
+  //   // simulate file missing or disable download
+  //   const resumeAvailable = false; // simulate resume not available
+  
+  //   if (!resumeAvailable) {
+  //     const goToLinkedIn = window.confirm(
+  //       "Resume is currently unavailable.\nWould you like to view/download it from LinkedIn?"
+  //     );
+  //     if (goToLinkedIn) {
+  //       window.open("https://www.linkedin.com/in/ajit-sharma-ajitcse20/", "_blank");
+  //     }
+  //     return;
+  //   }
+  
+  //   // If resume becomes available later:
+  //   const link = document.createElement('a');
+  //   link.href = '/pdf/Ajit_Resume2025.pdf';
+  //   link.download = 'Ajit_Resume2025.pdf';
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
+  
   const textVariants = {
     hidden: { opacity: 0, x: -100 },
     visible: { opacity: 1, x: 0 }
@@ -26,6 +65,45 @@ const HeroSection = () => {
 
   return (
     <section id="home" className="lg:py-16">
+       <AnimatePresence>
+        {showModal && (
+          <motion.div
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-md"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            <motion.div
+              className="bg-white dark:bg-slate-900 rounded-xl shadow-2xl p-6 w-[90%] max-w-md text-center"
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.8, opacity: 0 }}
+              transition={{ duration: 0.3 }}
+            >
+              <h2 className="text-lg font-bold mb-3 text-gray-900 dark:text-white">
+                Resume Unavailable
+              </h2>
+              <p className="text-sm text-gray-600 dark:text-gray-300 mb-6">
+                My updated resume is currently not available for direct download. Would you like to view or download it from LinkedIn?
+              </p>
+              <div className="flex justify-center gap-4">
+                <button
+                  onClick={handleGoToLinkedIn}
+                  className="px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700 transition"
+                >
+                  Go to LinkedIn
+                </button>
+                <button
+                  onClick={handleCloseModal}
+                  className="px-4 py-2 rounded-md border border-gray-400 text-gray-700 hover:bg-gray-200 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 transition"
+                >
+                  Cancel
+                </button>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial="hidden"
