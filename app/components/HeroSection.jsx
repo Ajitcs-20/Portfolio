@@ -28,30 +28,7 @@ const HeroSection = () => {
       link.click();
       document.body.removeChild(link);
   };
-  // const handleDownload = (e) => {
-  //   e.preventDefault();
-  
-  //   // simulate file missing or disable download
-  //   const resumeAvailable = false; // simulate resume not available
-  
-  //   if (!resumeAvailable) {
-  //     const goToLinkedIn = window.confirm(
-  //       "Resume is currently unavailable.\nWould you like to view/download it from LinkedIn?"
-  //     );
-  //     if (goToLinkedIn) {
-  //       window.open("https://www.linkedin.com/in/ajit-sharma-ajitcse20/", "_blank");
-  //     }
-  //     return;
-  //   }
-  
-  //   // If resume becomes available later:
-  //   const link = document.createElement('a');
-  //   link.href = '/pdf/Ajit_Resume2025.pdf';
-  //   link.download = 'Ajit_Resume2025.pdf';
-  //   document.body.appendChild(link);
-  //   link.click();
-  //   document.body.removeChild(link);
-  // };
+
   
   const textVariants = {
     hidden: { opacity: 0, x: -100 },
@@ -121,7 +98,7 @@ const HeroSection = () => {
                 1000,
                 'Frontend Developer',
                 1000,
-                'React.js Developer',
+                'Freelance Developer',
                 1000,
                 'Software Engineer',
                 1000
@@ -132,7 +109,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className='text-white text-base sm:text=lg mb-6 lg:text-xl'>
-          With more than 1.5 years of hands-on experience in a dynamic startup environment, I bring a unique blend of creativity and technical expertise. Proficient in React.js, Next.js and TypeScript. I am on the lookout for challenging opportunities that promote professional growth and innovation. Let&apos;s build something extraordinary together!
+          Bringing real-world experience from a fast-paced startup environment, I blend creativity with solid technical skills in React.js, Next.js, and TypeScript. I’m always eager to take on exciting challenges that drive innovation and growth. Open to full-time roles and freelance opportunities — let’s build something extraordinary together!
           </p>
           <div>
             <motion.a
@@ -172,9 +149,9 @@ const HeroSection = () => {
         >
         <div className="relative w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] transition-transform duration-300 hover:scale-105 flex justify-center items-center">
   <div className="absolute inset-0 rounded-full p-1 bg-gradient-to-r from-gray-700 via-gray-400 to-gray-700">
-    <div className="w-full h-full rounded-full bg-black p-[3px]">
+    <div className="w-full h-full rounded-full bg-black p-[3px] ">
       <Image
-        src="./images/BlackWhite.png"
+        src="./images/BlackWhite.webp"
         alt="profile picture"
         className="rounded-full object-cover"
         fill

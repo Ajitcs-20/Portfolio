@@ -6,7 +6,10 @@ import {
   FaJava,
   FaGitAlt,
   FaPython,
-  FaNodeJs
+  FaNodeJs,
+  FaDocker,
+  FaAws,
+  FaLinux
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -17,7 +20,13 @@ import {
   SiRedux,
   SiVite,
   SiFigma,
-  SiEslint
+  SiEslint,
+  SiTestinglibrary,
+  SiJest,
+  SiGithubactions,
+  SiNginx,
+  SiPostman,
+  SiVisualstudiocode
 } from "react-icons/si";
 import { LampContainer } from "./ui/lamp";
 
@@ -34,13 +43,12 @@ const iconVar = (duration) => ({
   }
 });
 
-// ✅ A unified tech item
 const TechItem = ({ icon: Icon, label, color, duration }) => (
   <motion.div
     variants={iconVar(duration)}
     initial="initial"
     animate="animate"
-    className="flex flex-col items-center gap-2 p-4 rounded-lg  transition-transform hover:scale-110 duration-300"
+    className="flex flex-col items-center gap-2 p-4 rounded-lg transition-transform hover:scale-110 duration-300"
     title={label}
   >
     <Icon className={`${color}`} style={{ width: "3rem", height: "3rem" }} />
@@ -68,6 +76,13 @@ const TechSkills = () => {
           <TechItem icon={SiFigma} label="Figma" color="text-pink-500" duration={3.5} />
           <TechItem icon={SiEslint} label="ESLint" color="text-indigo-400" duration={2.8} />
           <TechItem icon={SiJira} label="JIRA" color="text-blue-600" duration={2.2} />
+          <TechItem icon={FaGitAlt} label="Git" color="text-orange-500" duration={3} />
+          <TechItem icon={SiPostman} label="Postman" color="text-orange-400" duration={2.5} />
+          <TechItem icon={SiVisualstudiocode} label="VS Code" color="text-blue-400" duration={2.7} />
+          <TechItem icon={SiGithubactions} label="GitHub Actions" color="text-white" duration={3} />
+          <TechItem icon={SiJest} label="Jest" color="text-red-500" duration={4} />
+          <TechItem icon={FaDocker} label="Docker" color="text-blue-400" duration={3.2} />
+          <TechItem icon={FaLinux} label="Linux" color="text-white" duration={2.8} />
         </div>
       </LampContainer>
     </section>
