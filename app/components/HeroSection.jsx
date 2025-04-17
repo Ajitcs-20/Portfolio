@@ -98,10 +98,11 @@ const HeroSection = () => {
                 1000,
                 'Frontend Developer',
                 1000,
-                'Freelance Developer',
-                1000,
                 'Software Engineer',
-                1000
+                1000,
+                'Open to Freelance',
+                1300,
+               
               ]}
               wrapper="span"
               speed={50}
