@@ -19,7 +19,7 @@ const projectsData = [
     id: 2,
     title: "RxBenefits App",
     description: "An internal web app for employee benefit tracking.",
-    image: "./images/rxb2.webp",
+    image: "./images/Rxb2.webp",
     tag: ["All", "Web", "NextJS", "TypeScript", "ChakraUI"],
     gitUrl: "/",
     previewUrl: "https://www.rxbenefits.com/",
