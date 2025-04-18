@@ -21,10 +21,8 @@ import {
   SiVite,
   SiFigma,
   SiEslint,
-  SiTestinglibrary,
   SiJest,
   SiGithubactions,
-  SiNginx,
   SiPostman,
   SiVisualstudiocode
 } from "react-icons/si";

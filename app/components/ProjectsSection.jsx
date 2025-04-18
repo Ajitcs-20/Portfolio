@@ -55,12 +55,12 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-center text-4xl text-white mt-4 mb-12 font-bold tracking-widest">
-        🚀 Featured Projects
+      <h2 className="text-center text-4xl text-white mt-4 mb-12  tracking-widest">
+        Projects
       </h2>
       <div
         ref={ref}
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 px-4 md:px-12"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 md:px-12"
       >
         {filteredProjects.map((project) => (
           <motion.div
